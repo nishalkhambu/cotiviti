@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+    display: inline-flex;
+    
+
+}
+nav ul{
+    margin-left: 40px;
+    
+
+}
+
+#menu{
+    list-style-type: none;
+    
+}
+
+
+#menu li{
+    display: inline-block;
+    padding: 52px;
+}
+
+#menu a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+header nav{
+    float: right;
+    display: block;
+    padding: 8px;
+    
+
+
+}

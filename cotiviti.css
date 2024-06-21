@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background: #31006E;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+    margin-left: 40px;
+
+}
+#menu{
+    list-style-type: none;
+}
+
+#menu li{
+    display: inline-block;
+
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+header nav{
+    float: right;
+}
+#intro{
+    background-color: #31006E;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 60% auto;
+}
+h1{
+    color: white;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#whitebox{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#whitebox small {
+    color: #7f7f7f;
+
+}
+#whitebox h2 {
+    color: #34176d;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#whitebox p {
+    color: #c43589;
+}
+
+#box{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image:url(building.png);
+    background-repeat: no-repeat;
+    background-position: 80% center ;
+
+
+}
+
+#parallax{
+    background-image:url(parallax-home.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+#join h5{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+
+}
+#stay{
+    text-align:center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#senior{
+    margin-left: 120px;
+    
+
+}
+
+#join a{
+    display: block;
+    text-decoration: none;
+}
+
+#join a i{
+    float: right;   
+}
+#search{
+    font: 16px;
+    margin: 24px;
+    
+
+
+}
+#search h6{
+    text-align: center;
+    font-size: 30px;
+}
+
+#search p{
+    text-align: center;
+    font-size: 16px;
+}
+#image {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#image h6{
+    color: #333333;
+    padding-top: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+#image p{
+    color: #333333;
+    margin-top: 10px;
+}
+
+#search .view a{
+    border: 1px solid #10069f;
+    display: inline-block;
+    width: 130px;
+    height:40px;
+    padding:10px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-top: 20px;
+    
+     
+}
+
+#search{
+    background-image:url(join.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#search .view a:hover{
+    transition:  transform linear 5s;
+    transform: translate(10%, -40px);
+}
+    
+
+

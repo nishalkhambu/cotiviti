@@ -1,0 +1,15 @@
+div{
+    display: inline-block;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}
+
+div1{
+    background: red;
+}
+
+box{
+    background: green;
+}
+

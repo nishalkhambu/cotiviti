@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+p {
+    border: 2px solid black;
+    background-color: yellow;
+}
+p {
+    border: 2px solid black;
+}
+#para1 {
+    background-color:aquamarine;
+}
+
+#para2 {
+    background-color: azure;
+}
